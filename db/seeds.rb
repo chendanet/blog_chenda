@@ -8,7 +8,7 @@
 Article.destroy_all
 
 
-8.times do 
+30.times do 
     article = Article.create!(
       title: Faker::Book.title,
       content: Faker::Lorem.sentence,
